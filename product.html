@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> A Story In Stone</S></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="contact us.html">Contact Us</a></li>
+        </ul>
+        <a class="btn btn-outline-light me-2" href="#">Login</a>
+        <a class="btn btn-primary" href="#">Signup</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Featured Products -->
+<section class="container my-5">
+    <h2>Featured Products</h2>
+    
+
+<div class="container mt-5">
+  <div class="row mb-3">
+    <div class="col">
+      <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#ringModal">Ring</a>
+    </div>
+    <div class="col">
+      <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#braceletModal">Bracelet</a>
+    </div>
+    <div class="col">
+      <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#necklaceModal">Necklace</a>
+    </div>
+  </div>
+</div>
+
+<!-- RING MODAL -->
+<div class="modal fade" id="ringModal" tabindex="-1" aria-labelledby="ringModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ringModalLabel">Ring Collection</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <!-- Item -->
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/ring-7015206_1280.jpg" class="img-fluid mb-2" alt="Ring 1">
+              <h6>Diamond With White Gold</h6>
+              <strong>Price:$29.99</strong>
+            </div>
+          </div>
+          <!-- Repeat 3 more items -->
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/engagement-ring-3633790_1280.jpg" class="img-fluid mb-2" alt="Ring 2">
+              <h6>White Stone With White Gold</h6>
+              <strong>Price:$39.99</strong>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/wedding-rings-3611277_1280.jpg" class="img-fluid mb-2" alt="Ring 3">
+              <h6>Couple Wedding Ring.</h6>
+              <strong>Price: $19.99</strong>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/jewellery-1203951_1280.jpg" class="img-fluid mb-2" alt="Ring 4">
+              <h6>Diamond with Rose Gold </h6>
+              
+              <strong>Price:$109.99</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BRACELET MODAL -->
+<div class="modal fade" id="braceletModal" tabindex="-1" aria-labelledby="braceletModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="braceletModalLabel">Bracelet Collection</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <!-- 4 Items like above, change title/description/price -->
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/bracelet-1198740_1280.jpg" class="img-fluid mb-2" alt="Bracelet 1">
+              <h6>Crysal Bracelet with gold</h6>
+              <strong>Price: $59.99</strong>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/pearl-4396157_1280.jpg" class="img-fluid mb-2" alt="Bracelet 2">
+              <h6>Pearl Bracelet</h6>
+              <strong>Price:$15.99</strong>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/jewellery-2090198_1280.jpg" class="img-fluid mb-2" alt="Bracelet 3">
+              <h6>Silver and Gold Bracelet ( Pack Of 2)</h6>
+              <strong>Price:$45.99</strong>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NECKLACE MODAL -->
+<div class="modal fade" id="necklaceModal" tabindex="-1" aria-labelledby="necklaceModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="necklaceModalLabel">Necklace Collection</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <!-- 4 Items -->
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/freshwater-pearl-2302851_1280.jpg" class="img-fluid mb-2" alt="Necklace 1">
+              <h6>Pearl Necklace</h6>
+              <strong>Price:$89.99</strong>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border p-2">
+              <img src="image/jewelry-6496898_1280.jpg" class="img-fluid mb-2" alt="Necklace 2">
+              <h6>Rose Gold Necklace</h6>
+              <strong>Price: $24.99</strong>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- //////////// -->
+    <div class="row text-center">
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/ring-7015206_1280.jpg" alt="Product 1">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$29.99</div>
+            <div class="product-description">Diamond With White Gold.</div>
+          </div>
+        </div>
+    
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/engagement-ring-3633790_1280.jpg" alt="Product 2">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$39.99</div>
+            <div class="product-description">White Stone With White Gold.</div>
+          </div>
+        </div>
+    
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/wedding-rings-3611277_1280.jpg" alt="Product 3">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$19.99</div>
+            <div class="product-description">Couple Wedding Ring.</div>
+          </div>
+        </div>
+    
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/bracelet-1198740_1280.jpg" alt="Product 4">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$59.99</div>
+            <div class="product-description">Crysal Bracelet with gold.</div>
+          </div>
+        </div>
+    
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/freshwater-pearl-2302851_1280.jpg" alt="Product 5">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$89.99</div>
+            <div class="product-description">Pearl Necklace .</div>
+          </div>
+        </div>
+    
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/pearl-4396157_1280.jpg" alt="Product 6">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$15.99</div>
+            <div class="product-description">Pearl Bracelet.</div>
+          </div>
+        </div>
+    
+        <!-- Product 7 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/jewellery-1203951_1280.jpg" alt="Product 7">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$109.99</div>
+            <div class="product-description">Diamond with Rose Gold .</div>
+          </div>
+        </div>
+    
+        <!-- Product 8 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/jewellery-2090198_1280.jpg" alt="Product 8">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$45.99</div>
+            <div class="product-description">Silver and Gold Bracelet ( Pack Of 2).</div>
+          </div>
+        </div>
+    
+        <!-- Product 9 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="image/jewelry-6496898_1280.jpg" alt="Product 9">
+          </div>
+          <div class="product-info">
+            <div class="product-price">$24.99</div>
+            <div class="product-description">Rose Gold Necklace .</div>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class=" text-center mb-4">
+      <h5 class="text-warning">Connect With Us</h5>
+      <ul class="list-unstyled">
+        <li>Email: support@storyinstone.com</li>
+        <li>Phone: +92 543743275</li>
+      </ul>
+      <div class="mt-2">
+        <a href="#" class="text-warning me-3"><i class="bi bi-facebook"></i> Facebook</a>
+        <a href="#" class="text-warning"><i class="bi bi-instagram"></i> Instagram</a>
+      </div>
+    </div>
+    &copy; 2025 Your Website. All rights reserved.
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
